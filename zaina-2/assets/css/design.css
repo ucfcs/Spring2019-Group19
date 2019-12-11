@@ -1,0 +1,124 @@
+
+
+.header-img {
+  width: 100%;
+  height: 200px;
+  background: url('cover.png');
+  background-size: cover;
+}
+a.class1 {
+  font-family: monospace;
+  font-size: 25;
+  font-weight: lighter;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: right;
+  color: #ffffff;
+}
+a.class1:link {
+  font-family: monospace;
+  font-size: 25;
+  font-weight: lighter;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: right;
+  color: #ffffff;
+}
+a.class1:visited{
+  font-family: monospace;
+  font-size: 25;
+  font-weight: lighter;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: right;
+  color: #ffffff;
+}
+a.class1:hover{
+  text-decoration: none;
+  color: #9DCC44;
+}
+a.class1:active{
+  text-decoration: underline;
+}
+
+a.button {
+  border: none;
+  background-color: #9DCC44;
+  color: white;
+  padding: 15px 32px;
+  font-family: sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  position: fixed;
+  left: 10;
+  top: 510;
+}
+
+.title{
+    font-size: 45;
+    font-weight: bold;
+    font-family: monospace ;
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    position: fixed;
+    top: 100;
+}
+
+.subtitle{
+  font-size: 25;
+  font-weight: lighter;
+  font-family: monospace;
+  position: fixed;
+  top: 250;
+  padding-left: 20px;
+  color: white;
+}
+
+
+
+
+.image{
+  position: fixed;
+  bottom: 250;
+  right: 100;
+}
+.circle{
+   border-radius: 50%;
+}
+
+
+.about{
+  font-size: 30;
+  font-family: monospace;
+  padding-left: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 300;
+  color: white;
+}
+
+.team {
+  position: fixed;
+  bottom: 150;
+  font-size: 15;
+  font-family: PT Mono;
+  text-align: left;
+}
+
+.row {
+  position: fixed;
+  bottom: 40;
+  display: flex;
+}
+tab1{padding-left: 1em; }
+tab2{padding-left: 5em;}
+
+body {
+
+    background-color: #2C566A;
+}

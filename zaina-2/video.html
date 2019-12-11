@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/css/dreams.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+
+
+    </head>
+
+
+    <body style="overflow:hidden;">
+        <!-- Header & Navigation -->
+
+        <header class="header">
+
+            <nav class="header__nav">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="video.html">Video Feed</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                </ul>
+
+            </nav>
+
+            <h2 class="header__titlevid">SpiderDuct: Black Team</h2>
+
+        </header>
+
+
+        <!-- Video Feed -->
+                <section class="feed">
+
+
+                <video id="videoElement" autoplay></video>
+                <video id="videoElementDos" autoplay></video>
+                <button id="camera--trigger">Take a picture</button>
+                <canvas id = "canvas"></canvas>
+                <canvas id = "canvas2"></canvas>
+                <p id = "text"></p>
+                <img id = "controls" src="assets/img/controls.png">
+
+        <!-- Arrow Key -->
+            <div class="feed__arrows">
+
+                <div class="left">
+
+                    <svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+                        <polyline fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+
+                </div>
+
+                <div class="up">
+
+                    <svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+                        <polyline fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+
+                </div>
+
+                <div class="down">
+
+                    <svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+                        <polyline fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+
+                </div>
+
+                <div class="right">
+
+                    <svg width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+                        <polyline fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+
+                </div>
+
+
+            </div>
+
+            <!-- Toggle -->
+
+            <button id="startstop">Start</button>
+          <!--  <button id="toggle">Switch To Autonmous</button> -->
+
+        </section>
+
+        <!-- JS -->
+        <script src="assets/js/keys.js"></script>
+        <script src="assets/js/camera.js"></script>
+        <script src="assets/js/getCameraID.js"></script>
+
+    </body>
+
+</html>

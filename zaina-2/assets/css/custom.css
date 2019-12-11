@@ -1,0 +1,401 @@
+:root {
+  --primary: #9DCC44;
+  --white: #fff;
+  --primary-half: #3D5B66;
+  --secondary: #2C566A;
+  --bg-color: #fff;
+  --bg-color-alt: #151414;
+  --bg-color-2: #e3e3e3;
+  --bg-inverse: #211f20;
+  --font-color: #151414;
+  --font-inverse: #fff;
+  --heading-font: 'PT Mono', monospace;
+}
+
+/*
+0 - 400px:      iPhone Small (phone)
+400 - 600px:    Phone (phone)
+600 - 900px:    Tablet Portrait (tab-port)
+900 - 1200px:   Tablet Landscape (tab-land)
+1200 - 1800px:  Desktop (This is where our normal styles apply)
+1800+           Large Desktop (desktop)
+
+*/
+.header {
+  min-height: 40vh;
+  background-color: var(--secondary);
+  background-image: url(../img/cover.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding: 4rem 10rem;
+  color: var(--white);
+}
+.header__nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 2rem 6rem;
+}
+.header__nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media (max-width: 56.25em) {
+  .header__nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.header__nav ul li {
+  display: block;
+}
+.header__nav ul li:not(:last-child) {
+  margin-right: 4rem;
+}
+.header__nav ul a {
+  font-size: 2rem;
+  line-height: 3;
+  display: block;
+}
+.header__nav ul a, .header__nav ul a:link, .header__nav ul a:visited {
+  color: var(--white);
+}
+.header__nav ul a:hover, .header__nav ul a:link:hover, .header__nav ul a:visited:hover {
+  color: var(--primary);
+}
+.header__title {
+  letter-spacing: .2rem;
+  font-size: 4.2rem;
+}
+.header__titlevid{
+  letter-spacing: .2rem;
+  font-size: 4.2rem;
+  position:fixed;
+  top:0;
+  left: 0;
+}
+.header__subtitle {
+  font-size: 2rem;
+}
+@media (max-width: 56.25em) {
+  .header__title, .header__subtitle {
+    text-align: center;
+  }
+}
+
+.about {
+  background-color: var(--secondary);
+  padding: 8rem 10rem;
+  color: var(--white);
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-gap: 6rem;
+}
+@media (max-width: 56.25em) {
+  .about {
+    padding: 8rem 6rem;
+    grid-gap: 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .about {
+    grid-template-columns: auto;
+    grid-gap: 8rem;
+  }
+}
+.about__img, .about__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about__text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.about__text p {
+  margin-bottom: 3rem;
+}
+.about__text a {
+  display: inline-block;
+  width: auto;
+  line-height: 4;
+  background-color: var(--primary);
+  padding: 0 3rem;
+  font-family: var(--heading-font);
+}
+.about__text a, .about__text a:link, .about__text a:visited {
+  color: var(--white);
+}
+
+.teams {
+  --t: all .2s ease-in;
+  padding: 8rem 10rem;
+}
+@media (max-width: 56.25em) {
+  .teams {
+    padding: 8rem 6rem;
+  }
+}
+.teams__title {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.teams__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+  grid-gap: 5rem;
+}
+.teams__member {
+  height: 25rem;
+  width: 25rem;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 56.25em) {
+  .teams__member {
+    width: 25rem;
+    height: auto;
+    pointer-events: none;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
+.teams__member:hover img {
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
+  opacity: .5;
+  max-height: 100%;
+  max-width: 100%;
+}
+.teams__member:hover div {
+  opacity: 1;
+}
+.teams__member img {
+  max-height: 90%;
+  max-width: 90%;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-transition: var(--t);
+  transition: var(--t);
+}
+@media (max-width: 56.25em) {
+  .teams__member img {
+    max-width: 100%;
+    max-height: none;
+  }
+}
+.teams__member div {
+  padding: 1.5rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--white);
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: var(--t);
+  transition: var(--t);
+}
+@media (max-width: 56.25em) {
+  .teams__member div {
+    position: relative;
+    top: auto;
+    left: auto;
+    color: var(--font-color);
+    opacity: 1;
+  }
+}
+
+.feed {
+  width: relative;
+  background-color: var(--secondary);
+  padding: 12rem 10rem;
+  color: var(--white);
+}
+.feed__title {
+  width: relative;
+  font-size: 3rem;
+  position: fixed;
+  top:250px;
+}
+#canvas{
+  width: 1920px;
+  height: 1080px;
+  display: none;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+#canvas2{
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 0%;
+  left: -50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+#text {
+   position: fixed;
+    bottom: 100px;
+    left: calc(82% - 100px);
+}
+#videoElement {
+	width: 500px;
+	height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  margin-top: -50px;
+  margin-left: -100px;
+	background-color: #666;
+}
+#videoElementDos{
+	width: 500px;
+	height: 300px;
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  margin-top: -50px;
+  margin-left: -100px;
+	background-color: #666;
+}
+#camera--trigger{
+    position: absolute;
+    bottom: 175px;
+    left: calc(80% - 100px);
+}
+
+#startstop {
+    position: absolute;
+    bottom: 250px;
+    left: calc(80% - 100px);
+}
+#controls {
+  position: absolute;
+  left: 800px;
+  top: 150px;
+}
+.feed__arrows {
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+}
+.feed__arrows .right, .feed__arrows .up, .feed__arrows .down, .feed__arrows .left {
+  position: absolute;
+}
+.feed__arrows .right.active polyline, .feed__arrows .up.active polyline, .feed__arrows .down.active polyline, .feed__arrows .left.active polyline {
+  stroke-width: 5;
+  stroke: white;
+}
+.feed__arrows .right {
+  left: 860px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.feed__arrows .right svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.feed__arrows .up {
+  top: 10%;
+  left: 800px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.feed__arrows .up svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.feed__arrows .down {
+  bottom: 10%;
+  left: 800px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.feed__arrows .down svg {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.feed__arrows .left {
+  top: 51%;
+  left: 678px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.feed__arrows svg {
+  padding: 5px;
+}
+.feed__arrows polyline {
+  stroke-width: 4;
+  stroke: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+.feed button {
+   width: 200px;
+  background-color: var(--primary);
+  color: white;
+  font-size: 16px;
+  font-family: var(--heading-font);
+  border-radius: 30px;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  bottom: 10%;
+  left: 90px;
+}
+
+/*# sourceMappingURL=custom.css.map */
