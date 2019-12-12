@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="LiDARMapping" pkg="LiDARMapping" type="LiDARMapping" respawn="true" />
+  <node name="rosserial" pkg="rosserial_python" type="serial_node.py" respawn="true" />
+</launch>

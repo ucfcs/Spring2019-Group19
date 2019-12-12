@@ -1,0 +1,7 @@
+Move backwards to point (0.000, 0.000) and turn robot to face 0.000 degrees
+Turn robot to face 0.381 degrees and move to wall at point (1154.171, 7.666)
+Move backwards to point (0.000, 0.000) and turn robot to face 0.000 degrees
+Move backwards to point (0.000, 0.000) and turn robot to face 0.000 degrees
+Turn robot to face 275.552 degrees and move to wall at point (104.779, -1077.916)
+Move backwards to point (0.000, 0.000) and turn robot to face 0.000 degrees
+

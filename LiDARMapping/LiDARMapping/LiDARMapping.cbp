@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LiDARMapping" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LiDARMapping" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LiDARMapping" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Helper.cpp" />
+		<Unit filename="Helper.h" />
+		<Unit filename="arch/linux/arch_linux.h" />
+		<Unit filename="arch/linux/net_serial.cpp" />
+		<Unit filename="arch/linux/net_serial.h" />
+		<Unit filename="arch/linux/net_socket.cpp" />
+		<Unit filename="arch/linux/thread.h" />
+		<Unit filename="arch/linux/thread.hpp" />
+		<Unit filename="arch/linux/timer.cpp" />
+		<Unit filename="arch/linux/timer.h" />
+		<Unit filename="hal/abs_rxtx.h" />
+		<Unit filename="hal/assert.h" />
+		<Unit filename="hal/byteops.h" />
+		<Unit filename="hal/event.h" />
+		<Unit filename="hal/locker.h" />
+		<Unit filename="hal/socket.h" />
+		<Unit filename="hal/thread.cpp" />
+		<Unit filename="hal/thread.h" />
+		<Unit filename="hal/types.h" />
+		<Unit filename="hal/util.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="rplidar.h" />
+		<Unit filename="rplidar_cmd.h" />
+		<Unit filename="rplidar_driver.cpp" />
+		<Unit filename="rplidar_driver.h" />
+		<Unit filename="rplidar_driver_TCP.h" />
+		<Unit filename="rplidar_driver_impl.h" />
+		<Unit filename="rplidar_driver_serial.h" />
+		<Unit filename="rplidar_protocol.h" />
+		<Unit filename="rptypes.h" />
+		<Unit filename="sdkcommon.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

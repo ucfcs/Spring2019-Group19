@@ -1,0 +1,301 @@
+# depslib dependency file v1.0
+1572218869 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/linux/net_serial.cpp
+	"/home/odroid/Documents/LiDAR(Current)/arch/linux/arch_linux.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<assert.h>
+	<errno.h>
+	<fcntl.h>
+	<time.h>
+	"/home/odroid/Documents/LiDAR(Current)/hal/types.h"
+	"/home/odroid/Documents/LiDAR(Current)/arch/linux/net_serial.h"
+	<sys/select.h>
+	<algorithm>
+	<asm/ioctls.h>
+	<asm/termbits.h>
+	<sys/ioctl.h>
+	<termios.h>
+	<sys/ioctl.h>
+
+1569449625 /home/odroid/Documents/LiDAR(Current)/arch/linux/arch_linux.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/select.h>
+	<time.h>
+	"timer.h"
+
+1572218842 /home/odroid/Documents/LiDAR(Current)/arch/linux/timer.h
+	"/home/odroid/Documents/LiDAR(Current)/hal/types.h"
+	<unistd.h>
+
+1569449146 /home/odroid/Documents/LiDAR(Current)/hal/types.h
+	<stdint.h>
+
+1572218881 /home/odroid/Documents/LiDAR(Current)/arch/linux/net_serial.h
+	"/home/odroid/Documents/LiDAR(Current)/hal/abs_rxtx.h"
+
+1572218892 /home/odroid/Documents/LiDAR(Current)/hal/abs_rxtx.h
+	"/home/odroid/Documents/LiDAR(Current)/hal/types.h"
+
+1569448827 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/linux/net_socket.cpp
+	"/home/odroid/Documents/sdkcommon.h"
+	"../../hal/socket.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<netdb.h>
+
+1572291068 /home/odroid/Documents/sdkcommon.h
+	"arch\win32\arch_win32.h"
+	"arch/macOS/arch_macOS.h"
+	"/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/linux/arch_linux.h"
+	"hal/types.h"
+	"hal/assert.h"
+	"rplidar.h"
+	"hal/util.h"
+
+1550760798 /home/odroid/Documents/arch/macOS/arch_macOS.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<time.h>
+	"arch/macOS/timer.h"
+
+1569449625 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/linux/arch_linux.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/select.h>
+	<time.h>
+	"timer.h"
+
+1572218842 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/linux/timer.h
+	"/home/odroid/Documents/LiDAR(Current)/hal/types.h"
+	<unistd.h>
+
+1569449146 /home/odroid/Documents/hal/types.h
+	<stdint.h>
+
+1569457410 /home/odroid/Documents/hal/assert.h
+
+1550760798 /home/odroid/Documents/rplidar.h
+	<vector>
+	"hal/types.h"
+	"rplidar_protocol.h"
+	"rplidar_cmd.h"
+	"rplidar_driver.h"
+
+1550760798 /home/odroid/Documents/rplidar_protocol.h
+
+1550760798 /home/odroid/Documents/rplidar_cmd.h
+	"rplidar_protocol.h"
+
+1550760798 /home/odroid/Documents/rplidar_driver.h
+
+1569457410 /home/odroid/Documents/hal/util.h
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/socket.h
+	<vector>
+
+1569448876 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/linux/timer.cpp
+	"/home/odroid/Documents/arch/linux/arch_linux.h"
+
+1569449625 /home/odroid/Documents/arch/linux/arch_linux.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/select.h>
+	<time.h>
+	"timer.h"
+
+1572218842 /home/odroid/Documents/arch/linux/timer.h
+	"/home/odroid/Documents/LiDAR(Current)/hal/types.h"
+	<unistd.h>
+
+1569448951 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/thread.cpp
+	"/home/odroid/Documents/sdkcommon.h"
+	"/home/odroid/Documents/hal/thread.h"
+	"arch/win32/winthread.hpp"
+	"arch/macOS/thread.hpp"
+	"/home/odroid/Documents/arch/linux/thread.hpp"
+
+1569448924 /home/odroid/Documents/hal/thread.h
+	"/home/odroid/Documents/hal/types.h"
+
+1569451615 /home/odroid/Documents/arch/linux/thread.hpp
+	"/home/odroid/Documents/arch/linux/arch_linux.h"
+	<sched.h>
+
+1572449660 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/Helper.cpp
+	<stdio.h>
+	<stdlib.h>
+	"Helper.h"
+
+1572449668 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/Helper.h
+	<math.h>
+	<cmath>
+	<stack>
+
+1572291405 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<cstdio>
+	<stack>
+	"rplidar.h"
+	"/home/odroid/Documents/Helper.h"
+	<Windows.h>
+	<unistd.h>
+	<signal.h>
+	<csignal>
+
+1550760798 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar.h
+	<vector>
+	"hal/types.h"
+	"rplidar_protocol.h"
+	"rplidar_cmd.h"
+	"rplidar_driver.h"
+
+1569449146 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/types.h
+	<stdint.h>
+
+1550760798 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_protocol.h
+
+1550760798 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_cmd.h
+	"rplidar_protocol.h"
+
+1550760798 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_driver.h
+
+1572220609 /home/odroid/Documents/Helper.h
+	<math.h>
+	<cmath>
+	<stack>
+
+1569457410 source:/home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_driver.cpp
+	"sdkcommon.h"
+	"hal/abs_rxtx.h"
+	"hal/thread.h"
+	"hal/types.h"
+	"hal/assert.h"
+	"hal/locker.h"
+	"hal/socket.h"
+	"hal/event.h"
+	"rplidar_driver_impl.h"
+	"rplidar_driver_serial.h"
+	"rplidar_driver_TCP.h"
+	<algorithm>
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/sdkcommon.h
+	"arch\win32\arch_win32.h"
+	"arch/macOS/arch_macOS.h"
+	"arch/linux/arch_linux.h"
+	"hal/types.h"
+	"hal/assert.h"
+	"rplidar.h"
+	"hal/util.h"
+
+1550760798 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/arch/macOS/arch_macOS.h
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<time.h>
+	<stdarg.h>
+	<iostream>
+	<string>
+	<unistd.h>
+	<errno.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<time.h>
+	"arch/macOS/timer.h"
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/assert.h
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/util.h
+
+1572218892 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/abs_rxtx.h
+	"/home/odroid/Documents/LiDAR(Current)/hal/types.h"
+
+1569448924 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/thread.h
+	"/home/odroid/Documents/hal/types.h"
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/locker.h
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/hal/event.h
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_driver_impl.h
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_driver_serial.h
+
+1569457410 /home/odroid/mybot_ws/src/LiDARMapping/LiDARMapping/rplidar_driver_TCP.h
+
